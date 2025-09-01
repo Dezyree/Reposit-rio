@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulário de Cadastro</title>
+    <link real="stylesheet" type="text/css" href="Formulario.css" mdia="screen">
+</head>
+<body>
+    
+    <div>
+        <h1>Competição Criativa</h1>
+        <h2>Formulario de Cadastro</h2>
+        <p>Prazo de preenchimento até 27 de setembro.</p>
+        <br>
+    </div>
+
+    <form>
+        <p>Para participar preencha os espaços abaixo</p>
+        <fieldset>
+            <div>
+                <legend>Nome</legend>
+                <input type="text" name="nome" id="nome" required></input>
+            </div>
+
+            <div>
+                <legend>Sobrenome</legend>
+                <input type="text" name="Sobrenome" id="Sobrenome" required></input>
+            </div>
+        </fieldset>
+
+
+        <div>
+            <legend>Email</legend>
+            <input type="email" name="email" id="email" required type="text" placeholder="seuemail@exemplo.com.br">
+
+            <legend>Senha</legend>
+            <input type="senha" name="senha" id="senha">
+        </div>
+
+
+    <div>
+        <legend>Data de nascimento</legend>
+        <input type="date" name="date" id="date">
+    </div>
+
+
+        <div>
+            <legend>Qual o seu gênero:</legend>
+            
+            
+                <input type="radio" name="devweb" volue="backend" required>Mulher</input>
+            
+
+                <input type="radio" name="devweb" volue="fullstack" required>Homem</input>
+        </div>
+
+        <fieldset>
+            <div>
+             <legend>Quais categorias de competição possui interesse?</legend><br><br>
+
+            
+             <input type="checkbox" id="interesse1" name="interesse1" volue="Arte digital" required>
+             <label for="interesse1">Arte digital</label>
+
+             
+             <input type="checkbox" id="interesse2" name="interesse2" volue="Arte em tela" required>
+             <label for="interesse2">Arte em tela</label>
+
+             <input type="checkbox" id="interesse3" name="interesse3" volue="Fotografia" required>
+             <label for="interesse3">Fotografia</label>
+
+            
+             <input type="checkbox" id="interesse4" name="interesse4" volue="Animação" required>
+             <label for="interesse4">Animação</label>
+            </div>
+        </fieldset>
+
+        <button class="botão" type="submit">Concluído</button>
+
+        <button class="botão" type="reset">Reset</button>
+
+        <div>
+            <p>Quer se aprofundar mais em suas habilidades artisticas? Venha se increver em um dos nos nossos cursos, onde  dentro de nossas oficinas sua imaginação é o limite!</p>
+        
+            <p>Para mais informações, acesse o nosso site:</p>
+
+            <a href="https://quantaacademia.com/">Clique aqui!</a>
+
+        </div>
+
+        <img src="arte digital.jpeg" alt="Ensino sobre artes digitais">
+
+        <img src="arte fotografica.jpeg" alt="Ensino sobre artes fotograficas">
+
+        <img src="artes em tela.jpg" width="450px" alt="Ensino sobre artes em tela">
+        
+        <img src="imagem de animaçao.png" width="450px" alt="Ensino sobre animação digital">
+
+        <img src="oficina de artes2.jpg" width="650px"alt="Oficinas divertidas e interativas">
+
+        <img src="oficina de artes.jpg" width="650px"alt="Oficinas divertidas e interativas">
+
+
+    </form>
+</body>
+</html>
